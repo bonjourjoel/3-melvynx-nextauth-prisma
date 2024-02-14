@@ -67,3 +67,5 @@ tutorial:
   + $> Q9MiGA26H1zIKF70PX14qOWlMrQqv2fF12Go7R+JyKE=
   + put this in .env: NEXTAUTH_SECRET="Q9MiGA26H1zIKF70PX14qOWlMrQqv2fF12Go7R+JyKE="
   + add secret in NextAuth({})
+
+?? i miss the technique to make OAuth work locally on localhost, and in production with another redirect url
