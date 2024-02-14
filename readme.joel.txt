@@ -63,3 +63,7 @@ tutorial:
   + https://authjs.dev/getting-started/providers/email-tutorial
   + it's a one time session by email link, i have not programmed it, and i don't have any test smtp to use
 
++ generate nextauth secret:
+  + $> Q9MiGA26H1zIKF70PX14qOWlMrQqv2fF12Go7R+JyKE=
+  + put this in .env: NEXTAUTH_SECRET="Q9MiGA26H1zIKF70PX14qOWlMrQqv2fF12Go7R+JyKE="
+  + add secret in NextAuth({})

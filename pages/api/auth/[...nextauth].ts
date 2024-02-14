@@ -19,6 +19,7 @@ if (!googleId || !googleSecret) {
 }
 
 export const authConfig = {
+  secret: process.env.NEXTAUTH_SECRET,
   providers: [
     GithubProvider({
       clientId: githubId,
